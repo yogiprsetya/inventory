@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Panduan Kerja Marketplace</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+<style>
+body{margin:5rem}
+.modal-content {border: transparent;background-color: transparent;}
+.card-body a{margin-bottom:5px}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+</style>
+</head>
+<body>
+<div class="card-columns">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">General</h4>
+			<p>Product Knowladge dll:</p>
+			<a href="https://drive.google.com/file/d/1NwyvAPYdhi4DDoMVdP2XlTngR10aSw3f/view" target="_blank" class="btn btn-primary">Product Knowladge</a>
+			<a href="https://drive.google.com/open?id=1tkQTL8RGzGSBtpiJto8d1RCux1LQ9tz4" target="_blank" class="btn btn-primary">Stok Opname</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Tokopedia</h4>
+			<p>Panduan handle pesanan:</p>
+			<a href="#" data-toggle="modal" data-target="#TokpedJNE" class="btn btn-primary">JNE / SiCepat</a>
+			<a href="#" data-toggle="modal" data-target="#TokpedSD" class="btn btn-primary">Gosend / Grab</a>
+			<a href="#" data-toggle="modal" data-target="#TokpedNinja" class="btn btn-primary">Ninja</a>
+			<div role="separator" class="dropdown-divider"></div>
+			<a href="https://drive.google.com/file/d/1ya-AQXXW88eXFlY_uf_vTL70HGIwnV8C/view" target="_blank" class="btn btn-primary">Diskusi dan Pesan</a>
+			<a href="https://drive.google.com/file/d/1aC3QgNx2rsDaBpbz4lMULKyQM-tn2sNn/view" target="_blank" class="btn btn-primary">Upload Produk</a>
+			<a href="https://drive.google.com/file/d/1Kvd4k3xcUQhQMsiYSOmJSs--K1cLBT0m/view" target="_blank" class="btn btn-primary">Membalas & Followup Ulasan</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Bukalapak</h4>
+			<p>Panduan handle pesanan:</p>
+			<a href="#" data-toggle="modal" data-target="#BLJNE" class="btn btn-primary">JNE / SiCepat</a>
+			<a href="#" data-toggle="modal" data-target="#BLSD" class="btn btn-primary">Gosend / Grab</a>
+			<a href="#" data-toggle="modal" data-target="#BLNinja" class="btn btn-primary">Ninja</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Shopee</h4>
+			<p>Panduan handle pesanan:</p>
+			<a href="#" data-toggle="modal" data-target="#ShopeeJNE" class="btn btn-primary">JNE / SiCepat</a>
+			<a href="#" data-toggle="modal" data-target="#ShopeeSD" class="btn btn-primary">Gosend / Grab</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Lazada</h4>
+			<p>Panduan handle pesanan:</p>
+			<a href="#" data-toggle="modal" data-target="#LazadaNinja" class="btn btn-primary">Ninja</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Video Tutorial</h4>
+			<p>Cara membuat kemasan, dkk</p>
+			<a href="#" data-toggle="modal" data-target="#BoxSusu" class="btn btn-primary">Box Susu dan Kalsium</a>
+			<a href="#" data-toggle="modal" data-target="#LabelObatKutu" class="btn btn-primary">Label Obat Kutu</a>
+			<a href="#" data-toggle="modal" data-target="#StickerShampoo" class="btn btn-primary">Label Sticker Shampoo / Condi</a>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Panduan Pengemasan</h4>
+			<p>Cara pengemasan produk sampai pengirimannya</p>
+			<a href="https://drive.google.com/file/d/1Ns3USpaa_UWxr09sWtffZCNSUrHMDF0K/preview" target="_blank" class="btn btn-primary">Dog Food / Cat Food 500gr</a>
+			<a href="https://drive.google.com/file/d/1YTGmV6wBPnPHxFuR61Rx1vPieNmneDEW/preview" target="_blank" class="btn btn-primary">Dog Food / Cat Food 1kg, 5kg & 9.8kg</a>
+			<a href="https://drive.google.com/file/d/1JuOhJnV2sDhYLLgtZ0ePS9A7PL6wbqLG/preview" target="_blank" class="btn btn-primary">Dog Food / Cat Food 19.2kg</a>
+			<br>-<br>
+			<a href="https://drive.google.com/file/d/150FvKH1iTTS7w_9ztdNp4dAC5JsIyWGN/preview" target="_blank" class="btn btn-primary">Obat Jamur 250ml, 100ml</a>
+			<a href="https://drive.google.com/file/d/1CD6IPjrtReyraONPWgy_0fuu5PZ1nveG/preview" target="_blank" class="btn btn-primary">Susu dan Kalsium</a>
+			<br>-<br>
+			<a href="https://drive.google.com/file/d/16NBEwNH168KNjgb1W-tR_FgVKDDoFpJm/preview" target="_blank" class="btn btn-primary">Shampoo / Conditioner 250ml & 100ml</a>
+			<a href="https://drive.google.com/file/d/1p3adSVjzu8HtuMsBtyWvJrmW4w38_PXG/preview" target="_blank" class="btn btn-primary">VCO 250ml & 30ml</a>
+			<a href="https://drive.google.com/file/d/1Wof2NVF8Dy9gQSE4YzCHMxmqwhQ_AdoB/preview" target="_blank" class="btn btn-primary">Obat Kutu 100ml & 50ml</a>
+			<a href="https://drive.google.com/file/d/1uAZV4C6ktavOCpI-k6JZvsf23BHZ-l5W/preview" target="_blank" class="btn btn-primary">Minyak Sereh 60ml & 30ml</a>
+			<br>-<br>
+			<a href="https://drive.google.com/file/d/1T6Mb-6uGl-a-5CSctpDGFSMKP_4ZkZwE/preview" target="_blank" class="btn btn-primary">Dental Care 60ml, 30ml, 10ml</a>
+			<a href="https://drive.google.com/file/d/1BxhoV9LrIGnwrhMNIwIaxSMHykBkC18o/preview" target="_blank" class="btn btn-primary">Karbol Sereh 1.5L, 600ml</a>
+			<a href="https://drive.google.com/file/d/1j0_UvWk3Sn1WDXrnmtyzESDHtaEMvTEZ/preview" target="_blank" class="btn btn-primary">Pet Otic</a>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade videoModal" id="StickerShampoo" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1zExQIN5AHBgREPL4oyYmhG5qEA_hRmL3/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="LabelObatKutu" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1co0RV_Bo_saO_GIU9Zus4oVM-jVPEZb7/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="TokpedJNE" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1Lc628NOh8NkdGjYs9ZCmhGxlbt1ArbIZ/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="TokpedSD" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1_McvnP4vssNNcTtLb5IiHSUA4oNM9BRB/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="TokpedNinja" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1LrObCVeBX3CHC-uILbiSF2TGq7V7zqVw/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="BLJNE" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1PbmozZ6PCcMJMk76DrR05Izaiheftzpm/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="BLSD" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1xqDMCpOq8ntB_dbmkce1m2XkHR23SLwG/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="BLNinja" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1ca1DP12iLyUiX-yAXedp3i-G-wMVwx4C/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="ShopeeJNE" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1ArUm28A8Tf_NQ47dJeQl1D_nddmFax_I/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="ShopeeSD" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/16N5PNbpj36mqTzAYKJWUgzKF3reOKCfc/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="LazadaNinja" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1tGu0DfebXFIGiKWHN-BFsCHpSLbDb9Ye/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade videoModal" id="BoxSusu" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<iframe src="https://drive.google.com/file/d/1PWrQL5kShapF60m96_7q0fPfZRA1x9sp/preview" width="832" height="468" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+<script>
+$('.videoModal').on('hide.bs.modal', function(e) {    
+    var $if = $(e.delegateTarget).find('iframe');
+    var src = $if.attr("src");
+    $if.attr("src", '/empty.html');
+    $if.attr("src", src);
+});
+</script>
+</body>
+</html>
